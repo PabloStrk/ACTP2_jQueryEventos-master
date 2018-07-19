@@ -30,7 +30,7 @@ $(function() {
     }
   });
 
-  // 05: Agegar imagen seleccionada en el select #image
+  // 05: Agregar imagen seleccionada en el select #image
   $("select#image").change(function(event) {
     var value = $(event.target).val(),
         source = `assets/images/squared/${value}`;
@@ -38,7 +38,7 @@ $(function() {
     $(this).parent().siblings('.create__image').children().attr('src', source);
   });
 
-  // 06: Agegar imagen seleccionada en el select #author
+  // 06: Agregar imagen seleccionada en el select #author
   $("select#author").change(function(event) {
     var value = $(event.target).val(),
         source = `assets/images/profiles/${value}`;

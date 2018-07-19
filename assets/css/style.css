@@ -288,7 +288,7 @@ h1,h2,h3 {
   outline: none;
 
   font-size: 1em;
-  padding: 15px 1%;
+  padding: 25px 1%;
   width: 97%;
 }
 
@@ -298,7 +298,7 @@ h1,h2,h3 {
 }
 
 .create__placeholder {
-  bottom: 19px;
+  bottom: 5px;
   color: #aaa;
   font-size: 1em;
   left: 5px;
@@ -311,6 +311,7 @@ h1,h2,h3 {
 .create__input:focus + .create__placeholder {
   bottom: 40px;
   color: tomato;
+  
 }
 
 .create__input:valid + .create__placeholder {
@@ -335,7 +336,7 @@ h1,h2,h3 {
 .create__submit {
   background-color: tomato;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   color: #fff;
   font-family: 'Open Sans';
   font-size: 1.25em;
